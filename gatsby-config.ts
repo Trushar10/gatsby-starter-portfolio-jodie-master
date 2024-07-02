@@ -20,6 +20,9 @@ const config: GatsbyConfig = {
   trailingSlash: `always`,
   plugins: [
     {
+      plugins: [`gatsby-plugin-netlify-cms`]
+    },
+    {
       resolve: `@lekoarts/gatsby-theme-jodie`,
       // See the theme's README for all available options
       options: {

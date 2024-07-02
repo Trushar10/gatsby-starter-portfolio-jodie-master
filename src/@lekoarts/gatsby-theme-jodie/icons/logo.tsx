@@ -1,10 +1,8 @@
-import * as React from "react";
-import profileImage from "/src/profile-circle.png"; // Path to your image
+import logo from '../static/profile-circle.png'; // Adjust the path as needed
 
 const Logo = () => (
-  <div>
-    <img src={profileImage} alt="Profile Circle" />
-  </div>
+  <img src={logo} alt="trushargavit-profile" />
 );
 
-export default Logo;
+
+export default Logo

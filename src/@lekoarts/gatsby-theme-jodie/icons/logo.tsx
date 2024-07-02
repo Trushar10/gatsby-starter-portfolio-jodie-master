@@ -1,5 +1,5 @@
 import * as React from "react";
-import profileImage from "./images/profile-circle.png"; // Path to your image
+import profileImage from "/src/profile-circle.png"; // Path to your image
 
 const Logo = () => (
   <div>

@@ -37,6 +37,9 @@ const config: GatsbyConfig = {
       },
     },
     {
+      plugins: [`gatsby-plugin-netlify-cms`]
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `jodie - @lekoarts/gatsby-theme-jodie`,
